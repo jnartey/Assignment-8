@@ -17,9 +17,11 @@ public class StudentActivity {
 		//Taking input
 		Student studentData = student.input();
 		
-		student.storeData("C:\\Users\\Students\\Desktop\\names.txt", studentData.getName());
-		student.storeData("C:\\Users\\Students\\Desktop\\grades.txt", studentData.getGrade());
-		student.storeData("C:\\Users\\Students\\Desktop\\gpas.txt", studentData.getGpa());
+		//Writing inputs to text files names, grades and gpas
+		student.storeData("/Users/user/Desktop/names.txt", studentData.getName());
+		student.storeData("/Users/user/Desktop/grades.txt", studentData.getGrade());
+		student.storeData("/Users/user/Desktop/gpas.txt", studentData.getGpa());
+		System.out.println("Student added successfully!");
 	}
 
 }

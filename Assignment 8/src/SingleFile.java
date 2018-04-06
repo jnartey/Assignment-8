@@ -14,7 +14,7 @@ public class SingleFile {
 	 */
 	public static void main(String[] args) {
 		//File path or location
-		String location = "C:\\Users\\Students\\Desktop\\hello.txt";
+		String location = "/Users/user/Desktop/hello.txt";
 		ArrayList <String> data = new ArrayList<String>();
 		
 		File file = new File(location);
